@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wassup chat app</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="https://<hostname.tld>/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/6vvvdmlecvzqcuvgofhywz63jxuckwy10jtgj3yb80l66exc/tinymce/6/plugins.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+          selector: "#mytextarea"
+        });
+      </script>
+    </head>
+</head>
+
+<body>
+    <section class="chat__section" style = "background:#454040;">
+        <div class="brand">
+            <img height="40" src="/wassup.png" alt="">
+            <h1>CHATAPP</h1>
+        </div>
+        <div class="message__area"></div>
+       <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+
+            <text style="margin-left: 15em ;">
+                WELCOME TO MY CHAT APPLICATION
+             </text>
+
+        </div> 
+    </section>
+
+   
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+
+</body>
+
+</html>
