@@ -11,7 +11,8 @@ Steps to install
 
 Go to  CHATAPPLICATION_REATIME   Directory 
 
-run command npm Start 
+run command   npm Start 
+
 you get output 
 
 
